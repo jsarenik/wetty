@@ -4,7 +4,7 @@ import type { XTerm, Options } from './options';
 export const defaultOptions: Options = {
   xterm: { fontSize: 14 },
   wettyVoid: 0,
-  wettyFitTerminal: true,
+  wettyFitTerminal: false,
 };
 
 export function loadOptions(): Options {
